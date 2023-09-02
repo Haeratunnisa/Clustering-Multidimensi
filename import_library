@@ -1,0 +1,3 @@
+library(cluster)
+library(factoextra)
+library(ggplot2)
