@@ -1,0 +1,12 @@
+# Load dataset
+data <- read.csv("dataset.csv", header = TRUE)
+
+# Select variables for clustering
+data <- data[, c(1, 2, ...,)]
+
+# Data standardization
+data <- scale(data)
+
+# clustering
+num_clusters <- 10
+clustering <- kmeans(data, centers=num_clusters, nstart=25)
