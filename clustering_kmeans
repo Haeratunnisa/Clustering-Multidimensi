@@ -1,6 +1,7 @@
-# Load dataset
+# Replace the dataset with the customer data you want to use in the RScript.R file. You can import data from a variety of sources, such as CSV files or databases.
 data <- read.csv("dataset.csv", header = TRUE)
 
+#Configure the clustering parameters according to your needs, such as the number of clusters, the type of clustering algorithm, and the attributes to be used.
 # Select variables for clustering
 data <- data[, c(1, 2, ...,)]
 
